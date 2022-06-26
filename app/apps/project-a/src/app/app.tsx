@@ -1,15 +1,10 @@
-import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { Home } from '@app/home';
 
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="project-a" />
-    </StyledApp>
+    <Home>
+      <h2>이곳은 project-a의 App 컴포넌트</h2>
+    </Home>
   );
 }
 
