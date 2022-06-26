@@ -1,13 +1,13 @@
 {
   "name": "root",
   "private": true,
-  "npmClient": "yarn",
-  "version": "independent",
-  "useWorkspaces": true,
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
     "lerna": "^5.1.6"
+  },
+  "scripts": {
+    "start:app": "yarn workspace @packages/app start"
   }
 }
