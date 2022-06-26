@@ -5,9 +5,11 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^5.1.6"
+    "lerna": "^5.1.6",
+    "prettier": "^2.7.1"
   },
   "scripts": {
-    "start:app": "yarn workspace @packages/app start"
+    "start:app": "yarn workspace @packages/app start",
+    "prettier:all": "prettier 'packages/**/*.{ts,tsx,js,scss,css,json,md}' --write"
   }
 }

@@ -1,0 +1,9 @@
+
+
+.jest-cache/*
+.jest-coverage/*
+node_modules/*
+
+**/dist/*
+**/node_modules/*
+**/tsconfig.tsbuildinfo

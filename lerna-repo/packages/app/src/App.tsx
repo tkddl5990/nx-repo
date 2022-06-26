@@ -1,7 +1,9 @@
 function App() {
+  const str = 'hello world';
+
   return (
     <div>
-      <h1>Hello App</h1>
+      <h1>{str}</h1>
     </div>
   );
 }
