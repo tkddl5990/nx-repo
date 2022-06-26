@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start:app": "yarn workspace @packages/app start",
+    "start:common": "yarn workspace @packages/common start",
     "prettier:all": "prettier 'packages/**/*.{ts,tsx,js,scss,css,json,md}' --write"
   }
 }
