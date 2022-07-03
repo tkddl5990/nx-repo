@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "product": "apps/product",
+    "product-e2e": "apps/product-e2e",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e",
+    "user": "apps/user",
+    "user-e2e": "apps/user-e2e"
+  }
+}
